@@ -10,7 +10,7 @@ const Login = () => {
         const email = evn.target.email.value;
         const password = evn.target.password.value;
         console.log(email,password);
-        axios.post('http://localhost:6060/api/signin',{
+        axios.post('https://blackhack.cyclic.app/api/signin',{
             email,
             password
         }).then((res)=>{
