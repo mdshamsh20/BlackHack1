@@ -18,7 +18,6 @@ const Hero = () => {
           <p className="mb-8 leading-relaxed text-[#EBFF00] md:mb-12 lg:w-4/5 xl:text-lg">LOREM IPSUM SOME BLA BLA TEXTS </p>
   
           <HeroInputBox />
-          <h1 className="mb-8 leading-relaxed text-[#FBFBFB] md:mb-12 xl:text-3xl">100K+ Users &nbsp;&nbsp; $1M+ Downloads</h1>
 
         </div>
       
