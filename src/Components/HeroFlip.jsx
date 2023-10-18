@@ -19,7 +19,7 @@ const Hero = () => {
                 LOREM IPSUM SOME BLA BLA TEXTS{" "}
               </p>
 
-              <button className="bg-[#1A58B6] w-1/3 rounded-sm uppercase py-4 text-white font-semibold ">
+              <button className="bg-[#1A58B6] w-1/3 rounded-sm uppercase py-4 text-white font-semibold  rounded-xl	">
                 Get Started
               </button>
             </div>
