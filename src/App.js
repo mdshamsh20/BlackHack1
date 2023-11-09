@@ -12,21 +12,24 @@ function App() {
   return (
     <div className="bg-black">
       <Navbar />
-      <Dashboard/>
-      <Footer/>
+    
       
       <div>
-      
+      <Routes>
+    <Route path="/" element={<Home/>} />
+    <Route path="login" element={<Login/>} />
+    <Route path="signup" element={<Signup/>} />
+    <Route path="dashboard" element={<Dashboard/>} />
+    <Route path="*" element={<div>404</div>} />
+
+  </Routes>
     </div>
+    <Footer/>
     </div>
-  //   <Routes>
-  //   <Route path="/" element={<Home/>} />
-  //   <Route path="login" element={<Login/>} />
-  //   <Route path="signup" element={<Signup/>} />
-  //   <Route path="*" element={<div>404</div>} />
-  // </Routes>
+   
     
   );
 }
 
 export default App;
+
