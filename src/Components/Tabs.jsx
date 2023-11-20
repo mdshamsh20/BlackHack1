@@ -24,7 +24,7 @@ const Tabs = () => {
             key={tab.name}
             className={`inline-flex rounded-3xl items-center h-12 px-2 py-2 text-center text-white  ${
               activeTab === tab.name
-                ? ' bg-white dark:bg-blue-700 font-bold text-black '
+                ? ' bg-blue dark:bg-blue-700 font-bold text-black '
                 : ' text-white'
             } sm:px-6 -px-1 dark:text-white whitespace-nowrap cursor-base focus:outline-none hover:border-gray-400 dark:hover:border-gray-300`}
             onClick={() => handleTabClick(tab.name)}
