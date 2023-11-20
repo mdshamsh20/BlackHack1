@@ -6,30 +6,31 @@ import Home from './Components/Home/Home';
 import Navbar from './Components/Navbar';
 import { Routes, Route } from 'react-router-dom';
 import Signup from "./Components/Signup";
-import Dashboard from "./Components/V2/Dashboard";
-
+import About from "./Components/About";
+import Topic from "./Components/Topic";
 function App() {
   return (
     <div className="bg-black">
       <Navbar />
-    
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="login" element={<Login/>} />
+        <Route path="signup" element={<Signup/>} />
+        <Route path="about" element={<About/>} />
+        <Route path="topic" element={<Topic/>} />
+
+
+        <Route path="*" element={<div>404</div>} />
+      </Routes>
+      <Footer/>
       
       <div>
-      <Routes>
-    <Route path="/" element={<Home/>} />
-    <Route path="login" element={<Login/>} />
-    <Route path="signup" element={<Signup/>} />
-    <Route path="dashboard" element={<Dashboard/>} />
-    <Route path="*" element={<div>404</div>} />
+      
+    </div>
+    </div>
 
-  </Routes>
-    </div>
-    <Footer/>
-    </div>
-   
     
   );
 }
 
 export default App;
-
