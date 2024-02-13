@@ -63,10 +63,11 @@ const Footer = () => {
             <h1 href="#" className="flex items-center mt-3 text-sm font-medium text-gray-500 duration-700 dark:text-gray-300 hover:text-gray-400 dark:hover:text-gray-200 hover:underline">
               <i className="fab fa-github mr-2"></i> GitHub
             </h1>
-          
+          <a href="https://www.facebook.com/profile.php?id=61555703770783">
             <h1 href="https://www.facebook.com/profile.php?id=61555703770783" className="flex items-center mt-3 text-sm font-medium text-gray-500 duration-700 dark:text-gray-300 hover:text-gray-400 dark:hover:text-gray-200 hover:underline">
               <i className="fab fa-facebook mr-2"></i> Facebook
             </h1>
+            </a>
           </div>
           
           </div>
